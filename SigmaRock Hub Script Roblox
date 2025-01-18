@@ -1,15 +1,23 @@
-local gameId = game.PlaceId
+local placeId = game.PlaceId
 
-if gameId == 2753915549 or 994732206 then 
+-- Lista de PlaceIds correspondientes a Blox Fruits y sus diferentes seas
+local bloxFruitsSeas = {
+    [2753915549] = true, -- First Sea
+    [4442272183] = true, -- Second Sea
+    [7449423635] = true, -- Third Sea
+}
+
+-- Verifica si el PlaceId actual pertenece a Blox Fruits
+if bloxFruitsSeas[placeId] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-1.0-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%201.0%20BETA"))()
-elseif gameId == 16732694052 then
+elseif placeId == 16732694052 then
     loadstring(game:HttpGet("https://pastebin.com/raw/gi7V97zB"))()
-elseif gameId == 286090429 then
+elseif placeId == 286090429 then
     loadstring(game:HttpGet("https://pastebin.com/raw/tWiUEjZJ"))()
-elseif gameId == 2317712696 then
+elseif placeId == 2317712696 then
     loadstring(game:HttpGet("https://pastebin.com/raw/BG7haCT6"))()
-elseif gameId == 6516141723 then
+elseif placeId == 6516141723 then
     loadstring(game:HttpGet("https://pastebin.com/raw/qV4X1DBz"))()
-elseif gameId == 662417684 then
+elseif placeId == 662417684 then
     loadstring(game:HttpGet("https://pastebin.com/raw/VK3TLMUE"))()
 end
