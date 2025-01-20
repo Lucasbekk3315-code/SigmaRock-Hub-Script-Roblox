@@ -9,7 +9,15 @@ local bloxFruitsSeas = {
 
 -- Verifica si el PlaceId actual pertenece a Blox Fruits
 if bloxFruitsSeas[placeId] then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-1.0-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%201.0%20BETA"))()
+    local queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
+
+local TeleportCheck = false
+game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
+    if KeepInfYield and (not TeleportCheck) and queueteleport then
+        TeleportCheck = true
+        queueteleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-1.0-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%201.0%20BETA"))()')
+    end
+end)
 elseif placeId == 16732694052 then
     loadstring(game:HttpGet("https://pastebin.com/raw/gi7V97zB"))()
 elseif placeId == 286090429 then
