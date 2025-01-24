@@ -16,11 +16,11 @@ local TeleportCheck = false
 game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     if game.CoreGui.CustomMenu.Frame and (not TeleportCheck) and queueteleport then
         TeleportCheck = true
-        queueteleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-1.0-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%201.8%20BETA"))()')
+        queueteleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-2.0-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%202.0%20BETA"))()')
     end
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-1.0-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%201.8%20BETA"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-2.0-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%202.0%20BETA"))()
 elseif placeId == 16732694052 then
     print("PlaceId 16732694052 detected")
     loadstring(game:HttpGet("https://pastebin.com/raw/gi7V97zB"))()
