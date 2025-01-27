@@ -36,6 +36,8 @@ elseif placeId == 6516141723 then
 elseif placeId == 662417684 then
     print("PlaceId 662417684 detected")
     loadstring(game:HttpGet("https://pastebin.com/raw/VK3TLMUE"))()
+elseif placeId == 106496818416412 then
+loadstring(game:HttpGet("https://pastebin.com/raw/1ba3t4Hv"))()
 else
     print("PlaceId not recognized")
 end
