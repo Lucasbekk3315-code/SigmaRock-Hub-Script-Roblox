@@ -10,7 +10,7 @@ local bloxFruitsSeas = {
 -- Verifica si el PlaceId actual pertenece a Blox Fruits
 if bloxFruitsSeas[placeId] then
     print("Blox Fruits Sea detected")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-2.1-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%202.0%20BETA"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-2.2-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%202.0%20BETA"))()
 elseif placeId == 16732694052 then
     print("PlaceId 16732694052 detected")
     loadstring(game:HttpGet("https://pastebin.com/raw/gi7V97zB"))()
