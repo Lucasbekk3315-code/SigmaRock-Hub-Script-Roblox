@@ -11,23 +11,6 @@ local bloxFruitsSeas = {
 if bloxFruitsSeas[placeId] then
     print("Blox Fruits Sea detected")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-2.2-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%202.0%20BETA"))()
-elseif placeId == 16732694052 then
-    print("PlaceId 16732694052 detected")
-    loadstring(game:HttpGet("https://pastebin.com/raw/gi7V97zB"))()
-elseif placeId == 286090429 then
-    print("PlaceId 286090429 detected")
-    loadstring(game:HttpGet("https://pastebin.com/raw/tWiUEjZJ"))()
-elseif placeId == 2317712696 then
-    print("PlaceId 2317712696 detected")
-    loadstring(game:HttpGet("https://pastebin.com/raw/BG7haCT6"))()
-elseif placeId == 6516141723 then
-    print("PlaceId 6516141723 detected")
-    loadstring(game:HttpGet("https://pastebin.com/raw/qV4X1DBz"))()
-elseif placeId == 662417684 then
-    print("PlaceId 662417684 detected")
-    loadstring(game:HttpGet("https://pastebin.com/raw/VK3TLMUE"))()
-elseif placeId == 106496818416412 then
-loadstring(game:HttpGet("https://pastebin.com/raw/1ba3t4Hv"))()
 else
     print("PlaceId not recognized")
 end
