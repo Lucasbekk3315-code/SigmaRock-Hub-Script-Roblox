@@ -9,8 +9,11 @@ local bloxFruitsSeas = {
 
 -- Verifica si el PlaceId actual pertenece a Blox Fruits
 if bloxFruitsSeas[placeId] then
-    print("Blox Fruits Sea detected")
+    print("Blox Fruits Mar Detectado")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-2.2-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%202.0%20BETA"))()
+elseif placeId == "2317712696" then
+    print("The Wild West Detectado")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/the-wild-west-script-roblox/refs/heads/main/Script%20The%20wild%20west%20roblox%20BETA"))()
 else
-    print("PlaceId not recognized")
+    print("Juego no reconocido.")
 end
