@@ -1,19 +1,15 @@
-local placeId = game.PlaceId
+local gameId = game.GameId
 
--- Lista de PlaceIds correspondientes a Blox Fruits y sus diferentes seas
-local bloxFruitsSeas = {
-    [2753915549] = true, -- First Sea
-    [4442272183] = true, -- Second Sea
-    [7449423635] = true, -- Third Sea
-}
-
--- Verifica si el PlaceId actual pertenece a Blox Fruits
-if bloxFruitsSeas[placeId] then
-    print("Blox Fruits Mar Detectado")
+-- Verifica si el GameId actual pertenece a Blox Fruits
+if gameId == 994732206 then
+    print("Blox Fruits Detectado")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/blox-fruits-2.2-roblox-script/refs/heads/main/Blox%20Fruits%20Script%20roblox%202.0%20BETA"))()
-elseif placeId == 2317712696 then
+
+-- Verifica si el GameId corresponde a "The Wild West"
+elseif gameId == 807930589 then
     print("The Wild West Detectado")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasbekk3315-code/the-wild-west-script-roblox/refs/heads/main/Script%20The%20wild%20west%20roblox%20BETA"))()
+
 else
     print("Juego no reconocido.")
 end
